@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "K. Accessories",
+        "price": 19.99,
+        "image": "https://i.ibb.co/nDCQ5m7/prod1.png",
+        "product_description": "This is Widget A, a high-quality and durable widget designed to make your life easier."
+    },
+    {
+        "id": 2,
+        "title": "K. Accessories",
+        "price": 29.99,
+        "image": "https://i.ibb.co/6mvN57J/prod2.png",
+        "product_description": "Introducing Gadget X - the latest innovation in tech gadgets. Stay connected and entertained with this cutting-edge device."
+    },
+    {
+        "id": 3,
+        "title": "Home Cooker",
+        "price": 39.99,
+        "image": "https://i.ibb.co/L1BZVvP/prod3.png",
+        "product_description": "Get your hands on the Super Gizmo, the ultimate tool for all your DIY projects. It's versatile and built to last."
+    },
+    {
+        "id": 4,
+        "title": "Sports Back Cap",
+        "price": 49.99,
+        "image": "https://i.ibb.co/SNWZt1K/prod4.png",
+        "product_description": "The Mega Saver Pack includes everything you need for a fantastic value. Don't miss out on this incredible deal!"
+    },
+    {
+        "id": 5,
+        "title": "Full Jersey Set",
+        "price": 99.99,
+        "image": "https://i.ibb.co/g4Nhjys/prod5.png",
+        "product_description": "Elevate your style with our Luxury Watch. It's not just a timepiece; it's a statement."
+    },
+    {
+        "id": 6,
+        "title": "Sports cates",
+        "price": 79.99,
+        "image": "https://i.ibb.co/HVVxvdm/prod6.png",
+        "product_description": "Experience the future of audio with our Smart Speaker. It's voice-activated and delivers stunning sound quality."
+    },
+    {
+        "id": 7,
+        "title": "Single Relax Chair",
+        "price": 59.99,
+        "image": "https://i.ibb.co/5MKx5gp/prod7.png",
+        "product_description": "Make healthy smoothies and delicious soups with our Powerful Blender. It's a kitchen essential."
+    },
+    {
+        "id": 8,
+        "title": "Children play",
+        "price": 69.99,
+        "image": "https://i.ibb.co/tmYrH9v/prod8.png",
+        "product_description": "Carry your belongings in style with our Designer Backpack. It's spacious and fashionable."
+    },
+    {
+        "id": 9,
+        "title": "Flexible Sofa",
+        "price": 89.99,
+        "image": "https://i.ibb.co/n04LCSz/prod9.png",
+        "product_description": "Enjoy music on the go with our Wireless Earbuds. They offer crystal-clear sound and a comfortable fit."
+    }
+]
