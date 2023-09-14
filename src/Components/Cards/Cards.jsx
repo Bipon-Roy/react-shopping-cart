@@ -9,15 +9,17 @@ const Cards = () => {
             .then((res) => res.json())
             .then((data) => setCards(data));
     }, []);
-    const [selectProduct, setSelectProduct] = useState([]);
 
+    const [selectedProduct, setSelectedProduct] = useState([]);
+    const [selectedPrice, setSelectedPrice] = useState(0);
     const handleCart = (card) => {
-        setSelectProduct([...selectProduct, card]);
+        setSelectedProduct([...selectedProduct, card]);
+        const price = card.price;
+        setSelectedPrice(selectedPrice + price);
     };
-    console.log(selectProduct);
+    console.log(selectedPrice);
     return (
-        <div>
-            <h1 className="text-4xl font-semibold my-4 ml-6 lg:ml-0">Products {cards.length}</h1>
+        <div className="max-w-[1340px] mx-auto flex flex-col lg:flex-row gap-7 py-12 mt-12">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mx-6 lg:mx-0">
                 {cards.map((card) => (
                     <div key={card.id} className="card bg-base-100">
@@ -65,7 +67,9 @@ const Cards = () => {
                     </div>
                 ))}
             </div>
-            <Cart handleCart={handleCart}></Cart>
+            <div>
+                <Cart selectedProduct={selectedProduct}></Cart>
+            </div>
         </div>
     );
 };

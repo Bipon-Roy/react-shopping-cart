@@ -16,14 +16,14 @@
     {
         "id": 3,
         "title": "Home Cooker",
-        "price": 39.99,
+        "price": 49,
         "image": "https://i.ibb.co/L1BZVvP/prod3.png",
         "product_description": "Get your hands on the Super Gizmo, the ultimate tool for all your DIY projects. It's versatile and built to last."
     },
     {
         "id": 4,
         "title": "Sports Back Cap",
-        "price": 49.99,
+        "price": 19.99,
         "image": "https://i.ibb.co/SNWZt1K/prod4.png",
         "product_description": "The Mega Saver Pack includes everything you need for a fantastic value. Don't miss out on this incredible deal!"
     },
@@ -37,7 +37,7 @@
     {
         "id": 6,
         "title": "Sports cates",
-        "price": 79.99,
+        "price": 159,
         "image": "https://i.ibb.co/HVVxvdm/prod6.png",
         "product_description": "Experience the future of audio with our Smart Speaker. It's voice-activated and delivers stunning sound quality."
     },
